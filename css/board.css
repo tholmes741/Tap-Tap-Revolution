@@ -1,0 +1,14 @@
+.tap-canvas {
+  width: 500px;
+  height: 650px;
+  background-image: url("../images/ttr_board.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  visibility: hidden;
+}

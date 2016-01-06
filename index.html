@@ -3,13 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>Tap Tap Revolution</title>
+    <link rel="stylesheet" type="text/css" href="./css/board.css">
+
   </head>
   <body>
     <canvas class='tap-canvas'></canvas>
+    <img src="./images/blue.png" id='blue'/>
+    <img src="./images/red.png" id='red'/>
+    <img src="./images/green.png" id='green'/>
+
+    <script type="text/javascript">
+      window.BALLS = {
+        0: document.getElementById('red'),
+        1: document.getElementById('green'),
+        2: document.getElementById('blue')
+      };
+    </script>
     <script type="application/javascript" src="lib/movingObject.js"></script>
     <script type="application/javascript" src="lib/utils.js"></script>
     <script type="application/javascript" src="lib/game.js"></script>
     <script type="application/javascript" src="lib/gameView.js"></script>
+
 
     <script type="application/javascript">
       (function () {
