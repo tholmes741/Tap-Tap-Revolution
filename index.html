@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tap Tap Revolution</title>
+  </head>
+  <body>
+    <canvas class='tap-canvas'></canvas>
+    <script type="application/javascript" src="lib/movingObject.js"></script>
+    <script type="application/javascript" src="lib/utils.js"></script>
+    <script type="application/javascript" src="lib/game.js"></script>
+    <script type="application/javascript" src="lib/gameView.js"></script>
+
+    <script type="application/javascript">
+      (function () {
+        var canvasEl = document.getElementsByTagName("canvas")[0];
+        canvasEl.width = Tap.Game.DIM_X;
+        canvasEl.height = Tap.Game.DIM_Y;
+
+        var ctx = canvasEl.getContext("2d");
+        var game = new Tap.Game();
+        new Tap.GameView(game, ctx).start();
+      })();
+    </script>
+
+  </body>
+</html>
