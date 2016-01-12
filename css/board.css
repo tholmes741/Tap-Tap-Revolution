@@ -12,3 +12,9 @@ img {
   height: 30px;
   visibility: hidden;
 }
+
+body {
+  width: 500px;
+  margin: auto;
+  background-color: black;
+}
