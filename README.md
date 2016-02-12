@@ -3,7 +3,7 @@
 
 live: http://tholmes741.github.io/Tap-Tap-Revolution/
 
-![Screenshot] (http://res.cloudinary.com/tholmes741/image/upload/v1452391349/Screen_Shot_2016-01-09_at_5.58.56_PM_rx0rwi.png)
+![Screenshot] (http://res.cloudinary.com/tholmes741/image/upload/w_500,h_600/Screen_Shot_2016-01-09_at_5.58.56_PM_rx0rwi.png)
 
 ## Front End Engineering
 
@@ -14,4 +14,4 @@ live: http://tholmes741.github.io/Tap-Tap-Revolution/
 
   I utilized HTML5 to render the graphics to the screen. The colored orbs follow
   the path using custom equations to determine the trajectory along with giving them
-  a 3D effect. 
+  a 3D effect.
