@@ -35,7 +35,7 @@
         canvasEl.height = Tap.Game.DIM_Y;
 
         var ctx = canvasEl.getContext("2d");
-        var game = new Tap.Game();
+        var game = new Tap.Game(ctx);
         new Tap.GameView(game, ctx).start();
       })();
     </script>
